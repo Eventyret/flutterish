@@ -14,12 +14,13 @@ class ProductManager extends StatefulWidget {
 
 class _ProductManagerState extends State<ProductManager> {
   List<String> _products = [];
-  
+
   @override
-    void initState() {
-      super.initState();
-      _products.add(widget.startingProduct)
-    }
+  void initState() {
+    super.initState();
+    _products.add(widget.startingProduct);
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(children: [
